@@ -1,0 +1,126 @@
+<style> @import url('https://fonts.googleapis.com/css2?family=Bungee&family=Libre+Baskerville:wght@700&display=swap'); </style>
+/* RESET */
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html{
+    background-color: #ffffff;
+}
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+ul{
+    list-style: none;
+}
+/* UTILITY */
+body{
+    width: 800px;
+    background-color: #9ea69f;
+    margin: 0 auto;
+}
+section{
+    max-width: 60%;
+    font-size: 1rem;
+}
+.split-to-sections{
+    display: flex;
+    justify-content: space-between;
+    padding: 0%;
+    background-color: #f5f3f1;
+    padding: 1em;
+    border-radius: 2em 2em 0em 0em;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0%;
+    border-bottom: 1px solid #f7f6f4;
+    border-top: 1px solid #f7f6f4;
+    color: #565656;
+}
+nav h1{
+    font-family: 'Libre Baskerville', serif;
+}
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0%;
+    text-transform: capitalize;
+    align-items: center;
+}
+nav li:nth-child(1){
+    border-bottom: 1px solid #d7efb2;
+}
+nav li{
+    padding-left: 1.5em;
+    padding-right: 1em;
+}
+nav li:hover{
+    border-bottom: 1px solid #d7efb2;
+    color: #879477;
+    width: fit-content;
+}
+main h2{
+    font-family: 'Anton', sans-serif;
+    font-size: 2em;
+    text-transform: capitalize;
+    text-align: left;
+}
+main p{
+    font-size: 1em;
+    text-align: left;
+}
+.explore{
+    background-color: #020202;
+    width: 8em;
+    border-radius: .5em;
+    color: #929292;
+    padding: .5em;
+    text-transform: capitalize;
+    text-align: center;
+}
+footer h3{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+    padding-top: 2em;
+    text-align: center;
+}
+figure img{
+    width: 8em;
+    height: auto;
+    border: 1px solid #eaebe8;
+    border-radius: .5em;
+    box-shadow: 0px 0px 10px 0px #eaebe8;
+    padding-left: .5em;
+}
+figure{
+    display: flex;
+    padding: 0%;
+    justify-content: space-between;
+    max-width: 100%;  
+}
+/* ASIDE */
+.aside{
+    background-color: #141915;
+    max-width: 40%;
+}
+.aside p{
+    margin-left: 60%;
+    background-color: #90fd07;
+    border-radius: .5em;
+    padding: .2em 1em;
+    border-bottom: none;
+}
+.aside-image{
+    border-radius:7.5em;
+    width: 15em; 
+    margin: .4em auto;
+}
+image-side{
+    max-width: 8em;
+    height: auto;
+}
